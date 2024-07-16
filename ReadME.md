@@ -31,12 +31,12 @@ I. Preprocessing methodology to performing neural networks via sklearn, tensorfl
 #### Compiling, Training, and Evaluating the Model
 
 The neural network model using Tensorflow Keras contains working code that performs the following steps:
-The number of layers, the number of neurons per layer, and activation function are defined  <br>
+the number of layers, the number of neurons per layer, and activation function are defined  <br>
 
-An output layer with an activation function is created  <br>
+An output layer with an activation function creates:  <br>
 
-There is an output for the structure of the model  <br>
-There is an output of the model’s loss and accuracy <br>
+output for the structure of the model  <br>
+output of the model’s loss and accuracy <br>
 The model's weights are saved every 5 epochs <br>
 The results are saved to an HDF5 file  <br>
 
@@ -56,9 +56,11 @@ The results are saved to an HDF5 file  <br>
    ![Figure 5](https://github.com/davidhyongae2/network/blob/main/Figure6.png) <br>
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why? <br>
-layer1 = 80, layer2 = 30. in order to create a testable set and a training set. <br>
+layer1 = 80 layer2 = 30. testable set, training set. <br>
+
 Were you able to achieve the target model performance? <br> 
 yes, at an accuracy of 0.7286 <br>
+
 What steps did you take to try and increase model performance? <br>
 100 Epoch steps. 50 Epoch and lastly 30 Epoch and period of 5. <br>
 
